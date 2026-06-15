@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quem Sou Eu? | Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <nav id="navbar">
+    <div class="nav-logo">🐷 Meu Portfólio
+    </div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre Mim</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#disciplinas">Disciplinas</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <!-- CABEÇALHO / HERO -->
+  <header id="home">
+
+    <!-- Nuvens SVG decorativas -->
+    <div class="cloud cloud-1">
+      <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="60" cy="40" rx="50" ry="22" fill="white" opacity="0.9"/>
+        <ellipse cx="40" cy="32" rx="28" ry="22" fill="white" opacity="0.9"/>
+        <ellipse cx="75" cy="28" rx="25" ry="20" fill="white" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="cloud cloud-2">
+      <svg viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="50" cy="35" rx="42" ry="18" fill="white" opacity="0.9"/>
+        <ellipse cx="35" cy="26" rx="22" ry="18" fill="white" opacity="0.9"/>
+        <ellipse cx="65" cy="23" rx="20" ry="16" fill="white" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="cloud cloud-3">
+      <svg viewBox="0 0 80 44" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="40" cy="30" rx="34" ry="16" fill="white" opacity="0.9"/>
+        <ellipse cx="28" cy="22" rx="18" ry="15" fill="white" opacity="0.9"/>
+        <ellipse cx="54" cy="20" rx="16" ry="14" fill="white" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <!-- Sol decorativo -->
+    <div class="sun-deco">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="30" fill="#FFD700"/>
+        <line x1="50" y1="10" x2="50" y2="2" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="50" y1="90" x2="50" y2="98" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="10" y1="50" x2="2" y2="50" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="90" y1="50" x2="98" y2="50" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="21" y1="21" x2="15" y2="15" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="79" y1="79" x2="85" y2="85" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="79" y1="21" x2="85" y2="15" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+        <line x1="21" y1="79" x2="15" y2="85" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Conteúdo central -->
+    <div class="header-content">
+      <div class="avatar-wrapper">
+        <div class="avatar-ring">
+          <img src="img/foto.jpeg" alt="Minha foto" class="avatar-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="avatar-emoji">🐷</div>
+        </div>
+        <div class="avatar-badge">⭐</div>
+      </div>
+      <h1 class="hero-name">Manuela Santos</h1>
+      <p class="hero-phrase">I can't say I'm a perfect ten,
+But I am the girl I've always been</p>
+    <div class="hero-tags">
+     <span class="tag">🖥️ Ciência da Computação</span>
+        <span class="tag">💻 Dev em Formação</span>
+        <span class="tag">🔬 Pensamento Lógico</span>
+      </div>
+      <a href="#sobre" class="btn-hero">Conheça minha história!</a>
+    </div>
+
+    <!-- PEPPA CSS CLÁSSICA -->
+    <div class="peppa-scene">
+      <div class="peppa-container">
+        <div class="peppa">
+          <div class="ear left"></div>
+          <div class="ear right"></div>
+          <div class="head">
+            <div class="nose">
+              <div class="snout"></div>
+            </div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="cheek"></div>
+            <div class="mouth"></div>
+          </div>
+          <div class="arm left">
+            <div class="finger"></div>
+            <div class="finger"></div>
+            <div class="finger"></div>
+          </div>
+          <div class="dress"></div>
+          <div class="arm right">
+            <div class="finger"></div>
+            <div class="finger"></div>
+            <div class="finger"></div>
+          </div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+      <div class="mud-puddle"><div class="splash splash1"></div><div class="splash splash2"></div><div class="splash splash3"></div></div>
+    </div>
+
+  </header>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre" class="section section-sobre">
+    <div class="section-inner">
+      <!-- Peppa pequenininha decorativa no canto -->
+      <div class="section-peppa-deco">🐷</div>
+      
+      <h2 class="section-title">Sobre Mim</h2>
+     
+      <div class="sobre-card">
+        <p>Olá! Me chamo <strong>Manu</strong> e tenho <strong>17 anos</strong>. Moro em <strong>Curitiba</strong> e estudo na <strong>PUC PR</strong>. Desde pequena, sempre fui curiosa sobre como as coisas funcionam e como podemos usar a tecnologia para criar coisas novas.</p>
+        <p>Estou no curso de <strong> Ciência da Computação</strong>, onde aprendi a criar jogos no Construct, aplicativos no Processing e agora estou construindo meu próprio site. É incrível como a tecnologia nos permite transformar ideias em realidade!</p>
+        <p>O que mais me motiva é ver os projetos que imagino ganhando vida na tela. Cada linha de código é um passo a mais em direção ao que quero construir no futuro.</p>
+        <p>Fora do computador, você me encontra <strong>assistindo filmes, lendo, tocando piano</strong>. Acredito que criatividade e tecnologia juntas têm o poder de transformar o mundo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURIOSIDADES -->
+  <section id="curiosidades" class="section section-curiosidades">
+    <div class="section-inner">
+      <h2 class="section-title">Curiosidades Sobre Mim</h2>
+      <p class="section-sub">Clique no card para revelar uma curiosidade surpresa!</p>
+
+      <div class="curiosidades-grid">
+        <div class="curiosidade-item">
+          <span class="curio-num">01</span>
+          <p>🌍 Tenho sonho de viajar o mundo um dia.</p>
+        </div>
+        <div class="curiosidade-item">
+          <span class="curio-num">02</span>
+          <p>🎵 Já fui no show da minha artista favorita.</p>
+        </div>
+        <div class="curiosidade-item">
+          <span class="curio-num">03</span>
+          <p> Eu adoro ler sagas de livros, como Percy Jackson, Jogos vorazes e entre outros.</p>
+        </div>
+        <div class="curiosidade-item">
+          <span class="curio-num">04</span>
+          <p>📚 Amo acompanhar resenhas de livros.</p>
+        </div>
+        <div class="curiosidade-item">
+          <span class="curio-num">05</span>
+          <p>🎮 Meu super-herói favorito é o Homem-Aranha.</p>
+        </div>
+        <div class="curiosidade-item surprise" id="surpriseCard">
+          <span class="curio-num">?</span>
+          <p id="surpriseText">Clique para revelar uma curiosidade surpresa!</p>
+          <button class="btn-surprise" onclick="revelarSurpresa()">Revelar!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section section-hobbies">
+    <div class="section-inner">
+      <h2 class="section-title">Meus Hobbies</h2>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <div class="hobby-icon">🎹</div>
+          <h3>Piano</h3>
+          <p>Adoro tocar piano e tocar diversas músicas nele.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-icon">📺</div>
+          <h3>Letterboxd</h3>
+          <p>Adoro assistir a filmes e fazer reviews no letterboxd.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-icon">🎬</div>
+          <h3>2000´s</h3>
+          <p>Amo acompanhar séries e filmes dos anos 2000!</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-icon">💻</div>
+          <h3>Substrack</h3>
+          <p>Amo usar o Substrack para acessar matérias criativas e conteúdos interessantes.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-icon">🎵</div>
+          <h3>Música</h3>
+          <p>A música me acompanha no dia a dia!</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-icon">📚</div>
+          <h3>Leitura</h3>
+          <p>Ler amplia o vocabulário, e nos leva a universos infinitos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCIPLINAS FAVORITAS -->
+  <section id="disciplinas" class="section section-disciplinas">
+    <div class="section-inner">
+      <h2 class="section-title">Disciplinas Favoritas</h2>
+
+      <div class="disciplinas-grid">
+        <div class="disciplina-card">
+          <div class="disciplina-icon">🔢</div>
+          <h3>Matemática</h3>
+          <p>Apesar de complexa, gosto de resolver problemas matemáticos e descobrir novas relações lógicas.</p>
+          <div class="disciplina-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="disciplina-card">
+          <div class="disciplina-icon">💻</div>
+          <h3>Resolução de Problemas com Lógica Matemática</h3>
+          <p>Desenvolve a capacidade de resolver problemas de forma lógica e eficiente.</p>
+          <div class="disciplina-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="disciplina-card">
+          <div class="disciplina-icon">🌐</div>
+          <h3>Inglês</h3>
+          <p>Amo aprender esse idioma das diversas maneiras que podemos aprender.</p>
+          <div class="disciplina-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="disciplina-card">
+          <div class="disciplina-icon">💻</div>
+          <h3>Raciocínio Algorítmico</h3>
+          <p>Desenvolve a nossa capacidade programar, e nos leva programar na pratíca.</p>
+          <div class="disciplina-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEUS PROJETOS -->
+  <section id="projetos" class="section section-projetos">
+    <div class="section-inner">
+      <h2 class="section-title">Meus Projetos</h2>
+      <p class="section-sub">Projetos desenvolvidos durante o curso de Experiência Criativa.</p>
+
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <div class="projeto-img-wrapper">
+            <img src="img/imgconstruct.png" alt="Jogo no Construct" class="projeto-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="projeto-img-placeholder">🎮</div>
+          </div>
+          <div class="projeto-info">
+            <span class="projeto-tag">Construct</span>
+            <h3>Meu Jogo</h3>
+            <p>Jogo desenvolvido no Construct durante o curso. No jogo conhecemos o Alex que ao encontrar um artefato antigo, viaja para o antigo egito onde encontra diversos desafios e tem a missão de superar os obstáculos e vilões temáticos e voltar para casa.</p>
+            <a href="#" class="btn-projeto" target="_blank">Acessar projeto</a>
+          </div>
+        </div>
+
+        <div class="projeto-card">
+          <div class="projeto-img-wrapper">
+            <img src="img/imgprocessing.png" alt="App no Processing" class="projeto-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="projeto-img-placeholder">🎨</div>
+          </div>
+          <div class="projeto-info">
+            <span class="projeto-tag">Processing</span>
+            <h3>Aplicativo Multimídia</h3>
+            <p>Aplicativo criado no Processing. Nosso App Multimídia tem como principal função diminuir o uso excessivo de celular, oferecendo pesquisas que falam sobre os dados e sugestão de diferentes hobbies, contando com uma estética única e interessante. </p>
+            <a href="#" class="btn-projeto" target="_blank">Acessar projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer id="rodape">
+    <!-- Peppa e George pequenos no rodapé -->
+
+    <h3 class="footer-name">Feito por Manuela Santos</h3>
+    <p class="footer-year">© 2026 — Portfólio da Peppa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
